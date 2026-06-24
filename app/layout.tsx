@@ -14,9 +14,9 @@ const openSans = Open_Sans({ variable: '--font-open-sans', subsets: ['latin'] })
 const raleway = Raleway({ variable: '--font-raleway', subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Protocolo 7 Dias Limpo | Recupere o controle da sua vida',
+  title: 'Desafio 7 Dias Limpo | Recupere o controle da sua vida',
   description:
-    'O protocolo prático que já ajudou dezenas de pessoas a vencerem os primeiros 7 dias limpos — o período onde a maioria falha.',
+    'O desafio prático que já ajudou dezenas de pessoas a vencerem os primeiros 7 dias limpos — o período onde a maioria falha.',
   generator: 'v0.app',
   icons: {
     icon: [
