@@ -30,7 +30,7 @@ export default function Page() {
       <section className="relative flex min-h-[100svh] flex-col">
         <Image
           src="/gabriel-imponente.jpg"
-          alt="Gabriel, criador do Protocolo 7 Dias Limpo"
+          alt="Gabriel, criador do Desafio 7 Dias Limpo"
           fill
           priority
           sizes="100vw"
@@ -49,7 +49,7 @@ export default function Page() {
                 color: "#ff0000",
               }}
             >
-              Protocolo 7 Dias Limpo
+              Desafio 7 Dias Limpo
             </span>
           </div>
 
@@ -59,7 +59,7 @@ export default function Page() {
 </h1>
             <p className="mt-5 max-w-xl text-pretty text-[15px] leading-relaxed text-foreground/85 sm:text-lg">
               Você não precisa passar os próximos anos prometendo que vai ser a última vez &quot;. Descubra o{" "}
-              <span className="font-semibold text-foreground">protocolo simples</span> que já ajudou dezenas de
+              <span className="font-semibold text-foreground">desafio simples</span> que já ajudou dezenas de
               pessoas a passarem os próximos 7 dias sem cair no mesmo ciclo.
             </p>
 
@@ -129,7 +129,7 @@ export default function Page() {
             <div className="relative aspect-square">
               <Image
                 src="/gabriel-retrato.png"
-                alt="Gabriel, criador do Protocolo 7 Dias Limpo"
+                alt="Gabriel, criador do Desafio 7 Dias Limpo"
                 fill
                 sizes="(max-width: 768px) 280px, 300px"
                 className="object-cover"
@@ -154,7 +154,7 @@ export default function Page() {
               </p>
               <p>
                 Depois de conquistar minha recuperação, reuni os principais aprendizados que me ajudaram nesse processo
-                e transformei tudo no <span className="font-semibold text-primary">Protocolo 7 Dias Limpo</span>. Hoje
+                e transformei tudo no <span className="font-semibold text-primary">Desafio 7 Dias Limpo</span>. Hoje
                 ajudo pessoas que estão vivendo exatamente o que um dia eu vivi.
               </p>
             </div>
@@ -272,7 +272,7 @@ export default function Page() {
           </span>
           <h3 className="text-lg font-bold">Teste por 7 dias sem risco</h3>
           <p className="text-sm leading-relaxed text-muted-foreground">
-            Se sentir que o protocolo não te ajudou, basta pedir reembolso dentro do prazo. Por qualquer motivo.
+            Se sentir que o desafio não te ajudou, basta pedir reembolso dentro do prazo. Por qualquer motivo.
           </p>
         </div>
       </section>
@@ -306,7 +306,7 @@ export default function Page() {
       </section>
 
       <footer className="border-t border-border px-5 py-8 text-center text-xs text-muted-foreground">
-        Protocolo 7 Dias Limpo • Todos os direitos reservados
+        Desafio 7 Dias Limpo • Todos os direitos reservados
       </footer>
     </main>
   )
