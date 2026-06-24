@@ -227,44 +227,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ===== PROTOCOL PRESENTATION ===== */}
-      <section className="px-5 py-16 sm:py-20">
-        <div className="mx-auto max-w-3xl">
-          <h2 className="text-center text-balance text-[clamp(1.4rem,5vw,1.9rem)] font-bold leading-tight">O Protocolo 7 Dias Limpo</h2>
-          <p className="mx-auto mt-4 max-w-xl text-center text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
-            Um passo a passo prático para vencer os primeiros 7 dias.
-            <br /> O período em que <span className="font-semibold text-foreground">a maioria falha</span>.
-          </p>
-
-          <div className="mt-10 grid gap-4 sm:grid-cols-2">
-            <div className="rounded-3xl border border-destructive/30 bg-card p-6">
-              <p className="text-sm font-semibold uppercase tracking-wide text-destructive">Não é</p>
-              <ul className="mt-4 space-y-3">
-                {["Internação", "Terapia tradicional", "Medicamento"].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-foreground/90">
-                    <X className="size-4 shrink-0 text-destructive" /> {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="rounded-3xl border border-success/30 bg-card p-6">
-              <p className="text-sm font-semibold uppercase tracking-wide text-success">É</p>
-              <ul className="mt-4 space-y-3">
-                {[
-                  "Prático e direto ao ponto",
-                  "Feito para os 7 primeiros dias",
-                  "A base real da sua recuperação",
-                ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-foreground/90">
-                    <Check className="size-4 shrink-0 text-success" /> {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ===== OBJECTION ===== */}
       <section className="bg-card/40 px-5 py-16 sm:py-20">
         <div className="mx-auto max-w-3xl text-center">
