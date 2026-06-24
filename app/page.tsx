@@ -36,7 +36,7 @@ export default function Page() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/55 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/55 to-background" />
 
         <div className="relative z-10 flex min-h-[100svh] flex-col px-5 py-8">
           {/* top space utilised */}
