@@ -58,7 +58,7 @@ export default function Page() {
   Você já tentou parar sozinho, <span className="text-primary">mas recaiu.</span>
 </h1>
             <p className="mt-5 max-w-xl text-pretty text-[15px] leading-relaxed text-foreground/85 sm:text-lg">
-              Você não precisa passar os próximos anos prometendo que vai ser a &quotúltima vez&quot;. Descubra o{" "}
+              Você não precisa passar os próximos anos prometendo que vai ser a &quot última vez&quot;. Descubra o{" "}
               <span className="font-semibold text-foreground">protocolo simples</span> que já ajudou dezenas de
               pessoas a passarem os próximos 7 dias sem cair no mesmo ciclo.
             </p>
