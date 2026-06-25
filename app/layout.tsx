@@ -1,3 +1,4 @@
+```tsx
 import Script from 'next/script'
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
@@ -80,7 +81,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* UTMify */}
+        {/* UTMify Pixel */}
         <Script id="utmify-pixel" strategy="afterInteractive">
           {`
             window.pixelId = "6a3db22754ff88e889c63eb7";
@@ -91,6 +92,17 @@ export default function RootLayout({
             document.head.appendChild(a);
           `}
         </Script>
+
+        {/* UTMify UTMs */}
+        <Script
+          id="utmify-latest"
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          strategy="afterInteractive"
+          async
+          defer
+          data-utmify-prevent-xcod-sck
+          data-utmify-prevent-subids
+        />
       </body>
 
       {/* Microsoft Clarity */}
@@ -109,3 +121,4 @@ export default function RootLayout({
     </html>
   )
 }
+```
