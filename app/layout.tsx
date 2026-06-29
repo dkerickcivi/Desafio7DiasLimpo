@@ -86,7 +86,7 @@ return ( <html lang="pt-BR" className={inter.className}> <body className="antial
     </Script>
   </body>
 </html>
-```
+
 
 )
 }
