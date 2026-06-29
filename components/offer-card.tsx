@@ -42,7 +42,7 @@ export function OfferCard() {
         {/* Price */}
         <div className="mt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            De <span className="line-through">R$597</span> por apenas
+            De <span className="line-through">R$197</span> por apenas
           </p>
           <p className="mt-1 text-5xl font-extrabold tracking-tight text-primary sm:text-6xl">R$27,90</p>
           <p className="mt-2 inline-block rounded-full bg-success/15 px-3 py-1 text-xs font-semibold text-success">
