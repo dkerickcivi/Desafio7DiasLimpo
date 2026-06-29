@@ -81,28 +81,10 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* UTMify Pixel */}
-        <Script id="utmify-pixel" strategy="afterInteractive">
-          {`
-            window.pixelId = "6a3db22754ff88e889c63eb7";
-            var a = document.createElement("script");
-            a.setAttribute("async", "");
-            a.setAttribute("defer", "");
-            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-            document.head.appendChild(a);
-          `}
-        </Script>
+        
 
-        {/* UTMify UTMs */}
-        <Script
-          id="utmify-latest"
-          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-          strategy="afterInteractive"
-          async
-          defer
-          data-utmify-prevent-xcod-sck
-          data-utmify-prevent-subids
-        />
+       
+       
       </body>
 
       {/* Microsoft Clarity */}
