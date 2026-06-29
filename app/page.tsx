@@ -55,7 +55,10 @@ export default function Page() {
 
           <div className="flex flex-1 flex-col items-center justify-center text-center">
             <h1 className="max-w-2xl text-balance font-extrabold leading-[1.15] text-[clamp(1.9rem,7vw,3.8rem)]">
-  Existe um motivo pelo qual você continua recaindo. <span className="text-primary">E ninguém nunca te explicou isso.</span>
+  Existe um motivo pelo qual você continua recaindo.{" "}
+  <span className="text-primary">
+    E ninguém nunca te explicou isso.
+  </span>
 </h1>
             <p className="mt-5 max-w-xl text-pretty text-[15px] leading-relaxed text-foreground/85 sm:text-lg">
               Você não precisa passar os próximos anos prometendo que vai ser a última vez &quot;. Descubra o{" "}
