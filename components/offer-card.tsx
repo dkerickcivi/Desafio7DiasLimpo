@@ -1,6 +1,6 @@
 import { Check, CreditCard, ShieldCheck } from "lucide-react"
 
-const CHECKOUT_URL = "https://pay.hub.la/BZKQ15DXTsLhRWvK4p9V"
+const CHECKOUT_URL = "https://pay.hub.la/17oPam1LbMinN8cPlQId"
 
 const INCLUDES = [
   "Acesso imediato e vitalício ao protocolo completo",
